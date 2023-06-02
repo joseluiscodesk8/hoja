@@ -1,0 +1,10 @@
+.customCursor {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle at center, #042526, #192324, #223a3b);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: -9999;
+  opacity: 0.2;
+}

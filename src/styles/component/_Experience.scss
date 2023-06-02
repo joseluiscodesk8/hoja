@@ -1,0 +1,17 @@
+.Experiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 250px;
+  margin: 20px auto;
+  line-height: 1.2rem;
+  color: #ccc;
+  //border: 1px solid #ccc;
+
+  & h2 {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+  }
+}

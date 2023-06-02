@@ -1,0 +1,56 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.scroll-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.scrollVisible {
+  animation: fade-in 0.3s ease-in-out forwards;
+}
+
+.scrollHidden {
+  animation: fade-out 0.3s ease-in-out forwards;
+}
+.Download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 13rem;
+  height: 6rem;
+  border-radius: 15px;
+  box-shadow: inset 0 0 45px #192324, inset 0 0 15px #0e1414;
+  & p {
+    color: #ccc;
+  }
+  & button {
+    width: 2rem;
+    border-radius: 10px;
+    color: #ccc;
+    border-color: #ccc;
+    background: transparent;
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  width: 90%;
+  margin: 20px auto;
+  color: #ccc;
+  //border: 1px solid #ccc;
+
+  & p {
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    & b {
+      color: #fff;
+      font-weight: 900;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 90%;
+  margin: 40px auto;
+  height: 220px;
+  //border: 1px solid #000;
+
+  & h1,
+  h2,
+  p {
+    color: #ccc;
+  }
+
+  & h1 {
+    font-size: 2rem;
+  }
+  & h2 {
+    font-size: 1.2rem;
+  }
+
+  & p {
+    font-size: 1rem;
+  }
+
+  & div {
+    display: flex;
+    align-self: self-start;
+    justify-content: space-between;
+    width: 25%;
+    max-width: 80px;
+    //border: 1px solid #ccc;
+
+    & .icon {
+      width: 25px;
+      height: 25px;
+      color: #ccc;
+    }
+  }
+}
