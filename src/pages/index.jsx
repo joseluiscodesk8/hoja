@@ -4,7 +4,6 @@ import Experience from "../component/Experience";
 import Profile from "../component/Profile";
 import Proyectos from "../component/Proyectos";
 import Footer from "../component/Footer";
-import ContactForm from "../component/ContactForm";
 import Download from "../component/Download";
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -23,7 +22,6 @@ export default function Home() {
       <Experience />
       <Proyectos />
       <Download />
-      <ContactForm />
       <Footer />
     </>
   );

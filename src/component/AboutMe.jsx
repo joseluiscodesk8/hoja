@@ -34,7 +34,7 @@ const AboutMe = () => {
   return (
     <>
       <section className={styles.AboutMe}>
-        <h2>ABOUT</h2>
+        <h2>About</h2>
         <p>
           Desarrollador frontend y una sólida comprensión de HTML, CSS y
           JavaScript, junto con el conocimiento en marcos como React, soy

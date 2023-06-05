@@ -8,15 +8,19 @@
   height: 220px;
   //border: 1px solid #000;
 
+  & h1 {
+    font-family: sacramento;
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 0 25px 15px #000, 0 25px 15px #000, 0 25px 15px #000;
+  }
+
   & h1,
   h2,
   p {
     color: #ccc;
   }
 
-  & h1 {
-    font-size: 2rem;
-  }
   & h2 {
     font-size: 1.2rem;
   }

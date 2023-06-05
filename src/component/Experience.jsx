@@ -35,7 +35,7 @@ const Experience = () => {
   return (
     <>
       <section className={styles.Experiencia}>
-        <h2>EXPERIENCIA</h2>
+        <h2>Experiencia</h2>
         <p>
           A través de estos proyectos, he adquirido habilidades técnicas y de
           gestión. Me ha permitido enfrentar desafíos por mi cuenta y

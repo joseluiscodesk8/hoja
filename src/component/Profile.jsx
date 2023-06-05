@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import styles from "../styles/index.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 const Profile = () => {
   useEffect(() => {
@@ -38,6 +39,9 @@ const Profile = () => {
     <>
       <section className={styles.profile}>
         <h1>José Luís Gómez</h1>
+        {/* <figure>
+          <Image src="/jl.png" alt="" width={280} height={180} />
+        </figure> */}
         <h2>Front-End Web</h2>
         <p>
           Construyo productos accesibles y experiencias digitales para la web.

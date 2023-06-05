@@ -9,8 +9,11 @@
   color: #ccc;
   //border: 1px solid #ffffff;
 
-  & h3 {
-    font-size: 0.9rem;
+  & h2 {
+    font-family: Great Vibes;
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-shadow: 0 25px 15px #000, 0 25px 15px #000;
   }
 
   & .api {

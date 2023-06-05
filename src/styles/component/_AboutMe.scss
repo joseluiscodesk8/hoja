@@ -8,4 +8,11 @@
   color: #ccc;
   line-height: 1.4rem;
   //border: 1px solid #ccc;
+
+  & h2 {
+    font-family: Great Vibes;
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 0 25px 15px #000, 0 25px 15px #000;
+  }
 }

@@ -45,7 +45,7 @@ const Proyectos = () => {
   return (
     <>
       <section className={`${styles.proyectos}`}>
-        <h3>PROYECTOS</h3>
+        <h2>Proyectos</h2>
         <div className={`${styles.api} ${styles.scroollHidden}`}>
           <h4>API REST</h4>
           <p>
