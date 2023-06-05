@@ -7,3 +7,15 @@
 body {
   background: linear-gradient(130deg, #042122, #192324, #0f221f, #223a3b);
 }
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("C:\Users\user\AppData\Local\Microsoft\Windows\Fonts\GreatVibes-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "sacramento";
+  src: url("C:\Users\user\AppData\Local\Microsoft\Windows\Fonts\Sacramento-Regular.ttf")
+    format("truetype");
+}
