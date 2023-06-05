@@ -6,3 +6,13 @@
 @use "./component/ContactForm";
 @use "./component/Footer";
 @use "./component/scroolStyle";
+
+@font-face {
+  font-family: "sacramento";
+  src: url("/fonts/SACRAMENTO-REGULAR.TTF") format("woff2");
+}
+
+@font-face {
+  font-family: "Great Vibes";
+  src: url("/fonts/GREATVIBES-REGULAR.TTF") format("woff2");
+}

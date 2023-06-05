@@ -8,7 +8,7 @@
   height: 220px;
 }
 .profile h1 {
-  font-family: sacramento;
+  font-family: sacramento, Arial, sans-serif;
   font-size: 3rem;
   font-weight: 300;
   text-shadow: 0 25px 15px #000, 0 25px 15px #000, 0 25px 15px #000;
@@ -59,7 +59,7 @@
   line-height: 1.4rem;
 }
 .AboutMe h2 {
-  font-family: Great Vibes;
+  font-family: Great Vibes, Arial, sans-serif;
   font-size: 3rem;
   font-weight: 300;
   text-shadow: 0 25px 15px #000, 0 25px 15px #000;
@@ -76,7 +76,7 @@
   color: #ccc;
 }
 .Experiencia h2 {
-  font-family: Great Vibes;
+  font-family: Great Vibes, Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 100;
   text-shadow: 0 25px 15px #000, 0 25px 15px #000;
@@ -93,7 +93,7 @@
   color: #ccc;
 }
 .proyectos h2 {
-  font-family: Great Vibes;
+  font-family: Great Vibes, Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 100;
   text-shadow: 0 25px 15px #000, 0 25px 15px #000;
@@ -296,4 +296,13 @@
   color: #ccc;
   border-color: #ccc;
   background: transparent;
+}
+
+@font-face {
+  font-family: "sacramento";
+  src: url("/fonts/SACRAMENTO-REGULAR.TTF") format("woff2");
+}
+@font-face {
+  font-family: "Great Vibes";
+  src: url("/fonts/GREATVIBES-REGULAR.TTF") format("woff2");
 }/*# sourceMappingURL=index.module.css.map */
