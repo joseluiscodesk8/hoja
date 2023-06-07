@@ -47,10 +47,15 @@ const Profile = () => {
           Construyo productos accesibles y experiencias digitales para la web.
         </p>
         <div>
-          <Link href={"#"}>
+          <Link href={"https://github.com/joseluiscodesk8"} target="_blanck">
             <BsGithub className={styles.icon} />
           </Link>
-          <Link href={"#"}>
+          <Link
+            href={
+              "https://www.linkedin.com/in/jos%C3%A9-lu%C3%ADs-g%C3%B3mez-angarita-5785941a3/"
+            }
+            target="_blanck"
+          >
             <BsLinkedin className={styles.icon} />
           </Link>
         </div>
