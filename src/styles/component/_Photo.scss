@@ -1,0 +1,18 @@
+.Photo {
+  display: flex;
+  margin: 20px auto;
+  transform: translate(0, 20px);
+  //border: 1px solid #ccc;
+  width: 70%;
+  max-width: 300px;
+  height: 200px;
+  & img {
+    width: 100%;
+    box-shadow: inset 20px 35px 30px #00000060;
+    border-radius: 100px;
+  }
+
+  @media screen and (min-width: 900px) {
+    height: 300px;
+  }
+}
