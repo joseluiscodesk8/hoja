@@ -32,12 +32,20 @@ const Proyectos = () => {
       observer.observe(briefcase);
     }
 
+    const slider = document.querySelector(`.${styles.slider}`);
+    if (slider) {
+      observer.observe(slider);
+    }
+
     return () => {
       if (api) {
         observer.unobserve(api);
       }
       if (briefcase) {
         observer.unobserve(briefcase);
+      }
+      if (slider) {
+        observer.observe(slider);
       }
     };
   }, []);
@@ -46,7 +54,7 @@ const Proyectos = () => {
     <>
       <section className={`${styles.proyectos}`}>
         <h2>Proyectos</h2>
-        <div className={`${styles.api} ${styles.scroollHidden}`}>
+        <section className={`${styles.api} ${styles.scroollHidden}`}>
           <h4>API REST</h4>
           <p>
             Consumir una API REST de películas me permite acceder a datos
@@ -65,12 +73,12 @@ const Proyectos = () => {
           </figure>
           <div className={styles.container_icon}>
             <div className={styles.icon}>HTML5</div>
-            <div className={styles.icon}>SCSS</div>
+            <div className={styles.icon}>SASS</div>
             <div className={styles.icon_js}>JavaScript</div>
           </div>
-        </div>
+        </section>
 
-        <div className={`${styles.briefcase} ${styles.scroollHidden}`}>
+        <section className={`${styles.briefcase} ${styles.scroollHidden}`}>
           <h3>Briefcase</h3>
           <p>
             Next.js ofrece una renderización eficiente del lado del servidor,
@@ -90,10 +98,35 @@ const Proyectos = () => {
           </figure>
           <div className={styles.container_icon}>
             <div className={styles.icon}>Next.js</div>
-            <div className={styles.icon}>SCSS</div>
+            <div className={styles.icon}>SASS</div>
             <div className={styles.icon_js}>Framer Motion</div>
           </div>
-        </div>
+        </section>
+
+        <section className={`${styles.slider} ${styles.scroollHidden}`}>
+          <h3>Slider</h3>
+          <p>
+            Trabajar con Next.js y la librería Swiper ofrece beneficios como el
+            renderizado eficiente del lado del servidor, un enrutamiento
+            sencillo y optimizado, así como la capacidad de crear carousels y
+            sliders interactivos de manera fácil y personalizable. Además,
+            Next.js proporciona un rendimiento mejorado y Swiper ofrece una
+            navegación táctil intuitiva y efectos visuales atractivos.
+          </p>
+          <figure>
+            <Link
+              href={"https://titles-app-joseluis.vercel.app/"}
+              target="_blank"
+            >
+              <Image src={"/slider.jpg"} width={150} height={150} alt="img" />
+            </Link>
+          </figure>
+          <div className={styles.container_icon}>
+            <div className={styles.icon}>Next.js</div>
+            <div className={styles.icon}>SASS</div>
+            <div className={styles.icon_js}>SWIPER</div>
+          </div>
+        </section>
       </section>
     </>
   );

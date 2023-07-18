@@ -33,3 +33,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+_cacache/content-v2/sha512/10/
+_cacache/content-v2/sha512/66/9b/
+_cacache/content-v2/sha512/e3/be/
+_logs/2023-07-18T01_18_06_070Z-debug-0.log
+_cacache/index-v5/40/1e/89f0b89d2ca92cd54ff481086fdd599c67170ea69eb9b22d37e34638d25e
+_cacache/index-v5/8b/e5/14d05b5381c59ecbf53c816ee029cba46364f7898c2f46d00670f5f63886
+_cacache/index-v5/af/03/5c781820370e585dc2323edbbc80669bf714da5b47d56510c7d0bd7521ee
+_logs/2023-06-21T00_41_36_535Z-debug-0.log
