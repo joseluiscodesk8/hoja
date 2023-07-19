@@ -37,6 +37,11 @@ const Proyectos = () => {
       observer.observe(slider);
     }
 
+    const faster = document.querySelector(`.${styles.faster}`);
+    if (faster) {
+      observer.observe(faster);
+    }
+
     return () => {
       if (api) {
         observer.unobserve(api);
@@ -46,6 +51,9 @@ const Proyectos = () => {
       }
       if (slider) {
         observer.observe(slider);
+      }
+      if (faster) {
+        observer.observe(faster);
       }
     };
   }, []);
@@ -91,7 +99,7 @@ const Proyectos = () => {
               <Image
                 src={"/maletin2 1.jpg"}
                 width={150}
-                height={150}
+                height={100}
                 alt="img"
               />
             </Link>
@@ -118,13 +126,33 @@ const Proyectos = () => {
               href={"https://titles-app-joseluis.vercel.app/"}
               target="_blank"
             >
-              <Image src={"/slider.jpg"} width={150} height={150} alt="img" />
+              <Image src={"/slider.jpg"} width={150} height={100} alt="img" />
             </Link>
           </figure>
           <div className={styles.container_icon}>
             <div className={styles.icon}>Next.js</div>
             <div className={styles.icon}>SASS</div>
             <div className={styles.icon_js}>SWIPER</div>
+          </div>
+        </section>
+
+        <section className={`${styles.faster} ${styles.scroollHidden}`}>
+          <h3>Faster</h3>
+          <p>
+            Faster es una aplicación de moto taxi diseñada para conductores,
+            desarrollada con Next.js. La aplicación permite a los conductores
+            registrarse y proporcionar servicios de transporte en moto de manera
+            eficiente.
+          </p>
+          <figure>
+            <Link href={"https://faster.vercel.app/"} target="_blank">
+              <Image src={"/faster.jpg"} width={150} height={100} alt="img" />
+            </Link>
+          </figure>
+          <div className={styles.container_icon}>
+            <div className={styles.icon}>Next.js</div>
+            <div className={styles.icon}>SASS</div>
+            <div className={styles.icon_js}>Framer-Motion</div>
           </div>
         </section>
       </section>
