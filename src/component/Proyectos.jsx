@@ -98,7 +98,7 @@ const Proyectos = () => {
             <Link href={"https://cvjoseluis.vercel.app/"} target="_blank">
               <Image
                 src={"/maletin2 1.jpg"}
-                width={150}
+                width={200}
                 height={100}
                 alt="img"
               />
@@ -126,13 +126,13 @@ const Proyectos = () => {
               href={"https://titles-app-joseluis.vercel.app/"}
               target="_blank"
             >
-              <Image src={"/slider.jpg"} width={150} height={100} alt="img" />
+              <Image src={"/slider.jpg"} width={200} height={100} alt="img" />
             </Link>
           </figure>
           <div className={styles.container_icon}>
             <div className={styles.icon}>Next.js</div>
             <div className={styles.icon}>SASS</div>
-            <div className={styles.icon_js}>SWIPER</div>
+            <div className={styles.icon_js}>Swiper</div>
           </div>
         </section>
 
@@ -146,13 +146,13 @@ const Proyectos = () => {
           </p>
           <figure>
             <Link href={"https://faster.vercel.app/"} target="_blank">
-              <Image src={"/faster.jpg"} width={150} height={100} alt="img" />
+              <Image src={"/faster.jpg"} width={200} height={100} alt="img" />
             </Link>
           </figure>
           <div className={styles.container_icon}>
             <div className={styles.icon}>Next.js</div>
             <div className={styles.icon}>SASS</div>
-            <div className={styles.icon_js}>Framer-Motion</div>
+            <div className={styles.icon_js}>Express</div>
           </div>
         </section>
       </section>
