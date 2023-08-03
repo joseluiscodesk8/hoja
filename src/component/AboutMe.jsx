@@ -39,9 +39,7 @@ const AboutMe = () => {
           Desarrollador frontend con una sólida comprensión de HTML, CSS
           JavaScript, junto con el conocimiento del marco de React Next.js, creo
           y diseño aplicaciones web receptivas, escalables y fáciles de
-          usarDesarrollador frontend con una sólida comprensión de HTML, CSS
-          JavaScript, junto con el conocimiento del marco de React Next.js, creo
-          y diseño aplicaciones web receptivas, escalables y fáciles de usar
+          usar.
         </p>
       </section>
     </>
