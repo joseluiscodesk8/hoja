@@ -37,11 +37,7 @@ const Experience = () => {
       <section className={styles.Experiencia}>
         <h2>Experiencia</h2>
         <p>
-          A través de estos proyectos, he adquirido habilidades técnicas y de
-          gestión. Me ha permitido enfrentar desafíos por mi cuenta y
-          desarrollar mi autonomía. Los proyectos personales también me han
-          ayudado a construir un portafolio sólido y a demostrar mi pasión por
-          el desarrollo
+        Desarrollador frontend con profundos conocimientos en HTML, CSS y JavaScript, respaldados por una experiencia fluida en el marco React, Next.js. Diseño y desarrollo de aplicaciones web receptivas, escalables y altamente intuitivas para garantizar experiencias de usuario excepcionales.
         </p>
       </section>
     </>

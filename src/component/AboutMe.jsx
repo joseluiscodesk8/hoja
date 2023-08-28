@@ -36,10 +36,7 @@ const AboutMe = () => {
       <section className={styles.AboutMe}>
         <h2>About</h2>
         <p>
-          Desarrollador frontend con una sólida comprensión de HTML, CSS
-          JavaScript, junto con el conocimiento del marco de React Next.js, creo
-          y diseño aplicaciones web receptivas, escalables y fáciles de
-          usar.
+        Apasionado por las tecnologías y el constante crecimiento intelectual. Siempre inmerso en la exploración y 	  dominio de nuevas ideas. Comprometido con la evolución tecnológica y su impacto en el mundo.
         </p>
       </section>
     </>
