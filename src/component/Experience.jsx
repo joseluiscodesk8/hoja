@@ -37,8 +37,8 @@ const Experience = () => {
       <section className={styles.Experiencia}>
         <h2>Experiencia</h2>
         <p>
-          Desarrollador web freelance apasionado conhabilidades sólidas en HTML,CSS,
-          JavaScript,React y Next.js. Creo experiencias digitales excepciona lesy
+          Desarrollador web freelance apasionado con habilidades sólidas en HTML,CSS,
+          JavaScript,React y Next.js. Creo experiencias digitales excepcionales y
           escalables para clientes en busca de soluciones innovadoras..`
         </p>
       </section>
