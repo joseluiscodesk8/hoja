@@ -37,7 +37,9 @@ const Experience = () => {
       <section className={styles.Experiencia}>
         <h2>Experiencia</h2>
         <p>
-        Desarrollador frontend con profundos conocimientos en HTML, CSS y JavaScript, respaldados por una experiencia fluida en el marco React, Next.js. Diseño y desarrollo de aplicaciones web receptivas, escalables y altamente intuitivas para garantizar experiencias de usuario excepcionales.
+          Desarrollador web freelance apasionado conhabilidades sólidas en HTML,CSS,
+          JavaScript,React y Next.js. Creo experiencias digitales excepciona lesy
+          escalables para clientes en busca de soluciones innovadoras..`
         </p>
       </section>
     </>
