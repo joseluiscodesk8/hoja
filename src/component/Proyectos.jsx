@@ -22,6 +22,11 @@ const Proyectos = () => {
       threshold: 0,
     });
 
+    const agagem = document.querySelector(`.${styles.agagem}`);
+    if (agagem) {
+      observer.observe(agagem);
+    }
+
     const api = document.querySelector(`.${styles.api}`);
     if (api) {
       observer.observe(api);
@@ -43,6 +48,9 @@ const Proyectos = () => {
     }
 
     return () => {
+      if (agagem) {
+        observer.unobserve(agagem);
+      }
       if (api) {
         observer.unobserve(api);
       }
@@ -62,6 +70,48 @@ const Proyectos = () => {
     <>
       <section className={`${styles.proyectos}`}>
         <h2>Proyectos</h2>
+        
+        <section className={`${styles.agagem} ${styles.scroollHidden}`}>
+          <b></b>
+          <h4>e-Commerce</h4>
+          <p>
+          Una plataforma de comercio electrónico robusta y eficiente creada con Next.js y Nest.js. Esta tienda en línea combina la potencia del rendimiento del lado del cliente de Next.js con la escalabilidad y modularidad del lado del servidor de Nest.js. Ofrece una experiencia de usuario fluida y altamente receptiva, respaldada por una arquitectura backend segura y flexible.
+          </p>
+          <figure>
+            <Link
+              href={"https://agagem.vercel.app/"}
+              target="_blank"
+            >
+              <Image src="/agagem.jpg" width={200} height={100} alt="img" />
+            </Link>
+          </figure>
+          <div className={styles.container_icon}>
+            <div className={styles.icon}>NEXT.JS</div>
+            <div className={styles.icon}>SASS</div>
+            <div className={styles.icon}>NEST.JS</div>
+          </div>
+        </section>
+
+        <section className={`${styles.engie} ${styles.scroollHidden}`}>
+          <h4>Redesign</h4>
+          <p>
+          Un impresionante rediseño del sitio web de ingeniería, construido con Next.js, que eleva la experiencia del usuario a nuevas alturas. Con una interfaz intuitiva y dinámica, esta página ofrece información técnica detallada de manera clara y accesible. La tecnología avanzada de Next.js garantiza una carga rápida y una navegación sin problemas, transformando la forma en que los visitantes interactúan con el mundo de la ingeniería en línea.
+          </p>
+          <figure>
+            <Link
+              href={"https://engineer-seven.vercel.app/"}
+              target="_blank"
+            >
+              <Image src="/engie.jpg" width={200} height={100} alt="img" />
+            </Link>
+          </figure>
+          <div className={styles.container_icon}>
+            <div className={styles.icon}>NEXT.JS</div>
+            <div className={styles.icon}>SASS</div>
+            <div className={styles.icon_js}>Responsive</div>
+          </div>
+        </section>
+
         <section className={`${styles.api} ${styles.scroollHidden}`}>
           <h4>API REST</h4>
           <p>
