@@ -39,10 +39,7 @@ const Profile = () => {
     <>
       <section className={styles.profile}>
         <h1>José Luís Gómez</h1>
-        {/* <figure>
-          <Image src="/jl.png" alt="" width={280} height={180} />
-        </figure> */}
-        <h2>Front-End Web</h2>
+        <h2>Full Stack Web</h2>
         <p>
           Construyo productos accesibles y experiencias digitales para la web.
         </p>

@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   width: 90%;
   max-width: 500px;
-  height: 300px;
+  height: 280px;
   margin: 20px auto;
   line-height: 1.2rem;
   color: #ccc;
@@ -16,5 +16,9 @@
     font-weight: 100;
     text-shadow: 0 25px 15px #000, 0 25px 15px #000;
     //letter-spacing: 0.rem;
+  }
+
+  & a {
+    color: #ffff;
   }
 }

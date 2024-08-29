@@ -1,13 +1,13 @@
 import Head from "next/head";
-import AboutMe from "../component/AboutMe";
-import Experience from "../component/Experience";
-import Profile from "../component/Profile";
-import Proyectos from "../component/Proyectos";
-import Footer from "../component/Footer";
-import Download from "../component/Download";
-import Photo from "@/component/Photo";
+import dynamic from "next/dynamic";
 
-// const inter = Inter({ subsets: ['latin'] })
+const AboutMe = dynamic(() => import("../component/AboutMe"));
+const Experience = dynamic(() => import("../component/Experience"));
+const Profile = dynamic(() => import("../component/Profile"));
+const Proyectos = dynamic(() => import("../component/Proyectos"));
+const Footer = dynamic(() => import("../component/Footer"));
+const Download = dynamic(() => import("../component/Download"));
+const Photo = dynamic(() => import("@/component/Photo"));
 
 export default function Home() {
   return (

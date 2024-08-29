@@ -37,9 +37,10 @@ const Experience = () => {
       <section className={styles.Experiencia}>
         <h2>Experiencia</h2>
         <p>
-          Desarrollador web freelance apasionado con habilidades sólidas en HTML,CSS,
-          JavaScript,React y Next.js. Creo experiencias digitales excepcionales y
-          escalables para clientes en busca de soluciones innovadoras..`
+        Con casi tres años de experiencia en desarrollo frontend y un fuerte enfoque en fullstack, disfruto creando soluciones innovadoras dentro del sector tecnológico. Mi dedicación a la entrega oportuna y el desarrollo optimizado me han distinguido. Aprovechando Next.js y Nest.js, He impulsado aplicaciones de alto rendimiento y logrado resultados sobresalientes en proyectos anteriores.
+        </p>
+        <p>
+          Desarrollador en <a href="https://codingsquad.co" target="blank">codingSquad</a> desde enero del 2023.
         </p>
       </section>
     </>
