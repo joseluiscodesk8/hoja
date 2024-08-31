@@ -77,7 +77,7 @@ const Proyectos = () => {
           <p>
           Una plataforma de comercio electrónico robusta y eficiente creada con Next.js y Nest.js. Esta tienda en línea combina la potencia del rendimiento del lado del cliente de Next.js con la escalabilidad y modularidad del lado del servidor de Nest.js. Ofrece una experiencia de usuario fluida y altamente receptiva, respaldada por una arquitectura backend segura y flexible.
           </p>
-          <p>Full Stack</p>
+          <p>Full Stack Responsive Design</p>
           <figure>
             <Link
               href={"https://agagem.vercel.app/"}
@@ -87,9 +87,9 @@ const Proyectos = () => {
             </Link>
           </figure>
           <div className={styles.container_icon}>
-            <div className={styles.icon}>NEXT.JS</div>
-            <div className={styles.icon}>SASS</div>
-            <div className={styles.icon}>NEST.JS</div>
+            <div className={styles.icon}>Next.js</div>
+            <div className={styles.icon}>Sasss</div>
+            <div className={styles.icon}>Nest.js</div>
           </div>
         </section>
 
@@ -98,7 +98,7 @@ const Proyectos = () => {
           <p>
           Un impresionante rediseño del sitio web de ingeniería, construido con Next.js, que eleva la experiencia del usuario a nuevas alturas. Con una interfaz intuitiva y dinámica, esta página ofrece información técnica detallada de manera clara y accesible. La tecnología avanzada de Next.js garantiza una carga rápida y una navegación sin problemas, transformando la forma en que los visitantes interactúan con el mundo de la ingeniería en línea.
           </p>
-          <p>Front-end</p>
+          <p>Front-end Mobile</p>
           <figure>
             <Link
               href={"https://engineer-seven.vercel.app/"}
@@ -108,8 +108,8 @@ const Proyectos = () => {
             </Link>
           </figure>
           <div className={styles.container_icon}>
-            <div className={styles.icon}>NEXT.JS</div>
-            <div className={styles.icon}>SASS</div>
+            <div className={styles.icon}>Next.js</div>
+            <div className={styles.icon}>Sass</div>
             <div className={styles.icon_js}>Responsive</div>
           </div>
         </section>
@@ -119,7 +119,7 @@ const Proyectos = () => {
           <p>
           En el desarrollo de Axiora, me enfoqué en la arquitectura de la aplicación, la integración de API, y la implementación de funciones interactivas, utilizando herramientas como Next.js, Node.js, Nest.js y PostgreSQL. Además, trabajé estrechamente con el equipo de diseño para asegurar que cada elemento visual y funcional estuviera alineado con los objetivos del proyecto.
           </p>
-          <p>Full Stack</p>
+          <p>Full Stack Responsive Design</p>
           <figure>
             <Link
               href={"https://axiora.vercel.app/"}
@@ -140,7 +140,7 @@ const Proyectos = () => {
           <p>
           Como desarrollador, fui responsable de implementar el menú interactivo del sitio, donde cada sección presenta una selección de platos con descripciones detalladas, imágenes tentadoras, y precios claros. Utilicé tecnologías como Next.js, Node.js, para asegurar una navegación fluida y una carga rápida, optimizando así la experiencia del usuario.
           </p>
-          <p>Front-end</p>
+          <p>Front-end Mobile</p>
           <figure>
             <Link href={"https://megumisushiwok.vercel.app/"} target="_blank">
               <Image
@@ -163,7 +163,7 @@ const Proyectos = () => {
           <p>
           Como desarrollador, participé en la construcción de la interfaz del usuario, asegurando que el catálogo de productos fuera fácil de navegar y visualmente atractivo. Utilicé tecnologías como Next.js, Nest, Node.js, PostgreSQL para desarrollar un sistema de búsqueda eficiente y una presentación de productos que resalte cada pieza con imágenes de alta calidad y descripciones detalladas, Actualmente sigue en desarrollo.
           </p>
-          <p>Full Stack</p>
+          <p>Full Stack Responsive Design</p>
           <figure>
             <Link
               href={"https://joyeriamilagrodelnorte.vercel.app/"}
