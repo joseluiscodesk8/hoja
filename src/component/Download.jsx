@@ -34,7 +34,7 @@ const Download = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/cv/cves.jpg";
+    link.href = "/cv/cv.jpg";
     link.download = "cv.jpg";
     link.click();
   };
