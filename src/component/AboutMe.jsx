@@ -36,7 +36,7 @@ const AboutMe = () => {
       <section className={styles.AboutMe}>
         <h2>About</h2>
         <p>
-        Apasionado por las tecnologías y el constante crecimiento intelectual. Siempre inmerso en la exploración y 	  dominio de nuevas ideas. Comprometido con la evolución tecnológica y su impacto en el mundo.
+        Passionate about technologies and constant intellectual growth. Always immersed in the exploration and mastery of new ideas. Committed to technological evolution and its impact on the world.
         </p>
       </section>
     </>

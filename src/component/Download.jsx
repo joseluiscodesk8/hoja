@@ -42,7 +42,7 @@ const Download = () => {
   return (
     <>
       <section className={styles.Download}>
-        <p>Descarga Mi Hoja de vida</p>
+        <p>Download My Resume</p>
         <div>
           <button onClick={handleDownload}>HV</button>;
         </div>

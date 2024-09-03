@@ -41,7 +41,7 @@ const Profile = () => {
         <h1>José Luís Gómez</h1>
         <h2>Full Stack Web</h2>
         <p>
-          Construyo productos accesibles y experiencias digitales para la web.
+        I build accessible products and digital experiences for the web.
         </p>
         <div>
           <Link href={"https://github.com/joseluiscodesk8"} target="_blanck">

@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+/* eslint-disable react/no-unescaped-entities */
+import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/index.module.scss";
@@ -69,13 +70,13 @@ const Proyectos = () => {
   return (
     <>
       <section className={`${styles.proyectos}`}>
-        <h2>Proyectos</h2>
+        <h2>Projects</h2>
         
         <section className={`${styles.agagem} ${styles.scroollHidden}`}>
           <b></b>
           <h4>Agagem</h4>
           <p>
-          Una plataforma de comercio electrónico robusta y eficiente creada con Next.js y Nest.js. Esta tienda en línea combina la potencia del rendimiento del lado del cliente de Next.js con la escalabilidad y modularidad del lado del servidor de Nest.js. Ofrece una experiencia de usuario fluida y altamente receptiva, respaldada por una arquitectura backend segura y flexible.
+          A robust and efficient e-commerce platform built with Next.js and Nest.js. This online store combines the client-side performance of Next.js with the scalability and modularity of Nest.js on the server side. It offers a smooth and highly responsive user experience, backed by a secure and flexible backend architecture.
           </p>
           <p>Full Stack Responsive Design</p>
           <figure>
@@ -88,7 +89,7 @@ const Proyectos = () => {
           </figure>
           <div className={styles.container_icon}>
             <div className={styles.icon}>Next.js</div>
-            <div className={styles.icon}>Sasss</div>
+            <div className={styles.icon}>Sass</div>
             <div className={styles.icon}>Nest.js</div>
           </div>
         </section>
@@ -96,7 +97,7 @@ const Proyectos = () => {
         <section className={`${styles.engie} ${styles.scroollHidden}`}>
           <h4>Enginectra</h4>
           <p>
-          Un impresionante rediseño del sitio web de ingeniería, construido con Next.js, que eleva la experiencia del usuario a nuevas alturas. Con una interfaz intuitiva y dinámica, esta página ofrece información técnica detallada de manera clara y accesible. La tecnología avanzada de Next.js garantiza una carga rápida y una navegación sin problemas, transformando la forma en que los visitantes interactúan con el mundo de la ingeniería en línea.
+          An impressive website redesign for an engineering company, built with Next.js, that elevates the user experience to new heights. With an intuitive and dynamic interface, this site delivers detailed technical information in a clear and accessible way. Next.js's advanced technology ensures fast loading and seamless navigation, transforming how visitors interact with the world of engineering online.
           </p>
           <p>Front-end Mobile</p>
           <figure>
@@ -117,7 +118,7 @@ const Proyectos = () => {
         <section className={`${styles.axiora} ${styles.scroollHidden}`}>
           <h4>Axiora</h4>
           <p>
-          En el desarrollo de Axiora, me enfoqué en la arquitectura de la aplicación, la integración de API, y la implementación de funciones interactivas, utilizando herramientas como Next.js, Node.js, Nest.js y PostgreSQL. Además, trabajé estrechamente con el equipo de diseño para asegurar que cada elemento visual y funcional estuviera alineado con los objetivos del proyecto.
+          In the development of Axiora, I focused on application architecture, API integration, and implementing interactive features using tools like Next.js, Node.js, Nest.js, and PostgreSQL. Additionally, I worked closely with the design team to ensure that every visual and functional element was aligned with the project's objectives.
           </p>
           <p>Full Stack Responsive Design</p>
           <figure>
@@ -131,14 +132,14 @@ const Proyectos = () => {
           <div className={styles.container_icon}>
             <div className={styles.icon}>Next.js</div>
             <div className={styles.icon}>Nest.js</div>
-            <div className={styles.icon_js}>PostgresSQl</div>
+            <div className={styles.icon_js}>PostgreSQL</div>
           </div>
         </section>
 
         <section className={`${styles.Megumi} ${styles.scroollHidden}`}>
           <h3>Megumi Shushi</h3>
           <p>
-          Como desarrollador, fui responsable de implementar el menú interactivo del sitio, donde cada sección presenta una selección de platos con descripciones detalladas, imágenes tentadoras, y precios claros. Utilicé tecnologías como Next.js, Node.js, para asegurar una navegación fluida y una carga rápida, optimizando así la experiencia del usuario.
+          As a developer, I was responsible for implementing the interactive menu on the site, where each section features a selection of dishes with detailed descriptions, enticing images, and clear prices. I used technologies like Next.js and Node.js to ensure smooth navigation and fast loading, optimizing the user experience.
           </p>
           <p>Front-end Mobile</p>
           <figure>
@@ -159,9 +160,9 @@ const Proyectos = () => {
         </section>
 
         <section className={`${styles.Joyeria} ${styles.scroollHidden}`}>
-          <h3>Joyeria</h3>
+          <h3>Jewelry</h3>
           <p>
-          Como desarrollador, participé en la construcción de la interfaz del usuario, asegurando que el catálogo de productos fuera fácil de navegar y visualmente atractivo. Utilicé tecnologías como Next.js, Nest, Node.js, PostgreSQL para desarrollar un sistema de búsqueda eficiente y una presentación de productos que resalte cada pieza con imágenes de alta calidad y descripciones detalladas, Actualmente sigue en desarrollo.
+          As a developer, I participated in building the user interface, ensuring that the product catalog was easy to navigate and visually appealing. I used technologies like Next.js, Nest.js, Node.js, and PostgreSQL to develop an efficient search system and a product presentation that highlights each piece with high-quality images and detailed descriptions. Currently, it is still under development.
           </p>
           <p>Full Stack Responsive Design</p>
           <figure>
@@ -175,17 +176,16 @@ const Proyectos = () => {
           <div className={styles.container_icon}>
             <div className={styles.icon}>Next.js</div>
             <div className={styles.icon}>Nest.js</div>
-            <div className={styles.icon_js}>PostgresSQL</div>
+            <div className={styles.icon_js}>PostgreSQL</div>
           </div>
         </section>
 
         {/* <section className={`${styles.faster} ${styles.scroollHidden}`}>
           <h3>Faster</h3>
           <p>
-            Faster es una aplicación de moto taxi diseñada para conductores,
-            desarrollada con Next.js. La aplicación permite a los conductores
-            registrarse y proporcionar servicios de transporte en moto de manera
-            eficiente.
+            Faster is a motorcycle taxi application designed for drivers,
+            developed with Next.js. The app allows drivers to sign up and
+            provide motorcycle transportation services efficiently.
           </p>
           <figure>
             <Link href={"https://faster.vercel.app/"} target="_blank">
@@ -204,3 +204,4 @@ const Proyectos = () => {
 };
 
 export default Proyectos;
+

@@ -41,22 +41,22 @@ const Experience = () => {
   return (
     <>
       <section className={styles.Experiencia}>
-        <h2>Experiencia</h2>
+        <h2>Experience</h2>
         <p>
-          Con casi tres años de experiencia en desarrollo frontend y un fuerte
-          enfoque en fullstack, disfruto creando soluciones innovadoras dentro
-          del sector tecnológico. Mi dedicación a la entrega oportuna y el
-          desarrollo optimizado me han distinguido. Aprovechando Next.js y
-          Nest.js, He impulsado aplicaciones de alto rendimiento y logrado
-          resultados sobresalientes en proyectos anteriores.
+        With almost three years of experience in frontend development and a strong
+          focus on fullstack, I enjoy creating innovative solutions within
+          of the technology sector. My dedication to timely delivery and
+          optimized development have distinguished me. Leveraging Next.js and
+          Nest.js, I have driven high performance applications and achieved
+          outstanding results in previous projects.
         </p>
-        <p>
+        {/* <p>
           Desarrollador en{" "}
           <a href="https://codingsquad.co" target="_blank">
             codingSquad
           </a>{" "}
           desde enero del 2023.
-        </p>
+        </p> */}
         <h2 onClick={toggleSkills} className={styles.clickable}>
           Skills
         </h2>
