@@ -42,13 +42,8 @@ const Experience = () => {
     <>
       <section className={styles.Experiencia}>
         <h2>Experience</h2>
-        <p>
-        With almost three years of experience in frontend development and a strong
-          focus on fullstack, I enjoy creating innovative solutions within
-          of the technology sector. My dedication to timely delivery and
-          optimized development have distinguished me. Leveraging Next.js and
-          Nest.js, I have driven high performance applications and achieved
-          outstanding results in previous projects.
+        <p>With over 3 years of experience in full-stack development, I began as a front-end developer and quickly transitioned to the backend, making me a well-rounded full-stack developer. 
+        
         </p>
         {/* <p>
           Desarrollador en{" "}
