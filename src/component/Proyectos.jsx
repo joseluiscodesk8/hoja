@@ -160,17 +160,17 @@ const Proyectos = () => {
         </section>
 
         <section className={`${styles.Joyeria} ${styles.scroollHidden}`}>
-          <h3>Jewelry</h3>
+          <h3>Ice Cream app</h3>
           <p>
-          As a developer, I participated in building the user interface, ensuring that the product catalog was easy to navigate and visually appealing. I used technologies like Next.js, Nest.js, Node.js, and PostgreSQL to develop an efficient search system and a product presentation that highlights each piece with high-quality images and detailed descriptions. Currently, it is still under development.
+          It is a fun app that tests store customers with a fun challenge to overcome, using audio capture with image synchronization to create an effect in which a goal can be achieved.
           </p>
-          <p>Full Stack Responsive Design</p>
+          <p>Front-end Responsive Design</p>
           <figure>
             <Link
-              href={"https://joyeriamilagrodelnorte.vercel.app/"}
+              href={"https://ice-cream-blush.vercel.app/"}
               target="_blank"
             >
-              <Image src={"/joyeria.jpg"} width={200} height={100} alt="img" />
+              <Image src={"/ice.jpg"} width={200} height={100} alt="img" />
             </Link>
           </figure>
           <div className={styles.container_icon}>
