@@ -12,3 +12,13 @@
   font-family: "sacramento";
   src: url("/fonts/SACRAMENTO-REGULAR.TTF") format("woff2");
 }
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(130deg, #042122, #192324, #0f221f, #223a3b);
+}

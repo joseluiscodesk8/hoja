@@ -1,13 +1,9 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
-const AboutMe = dynamic(() => import("../component/AboutMe"));
 const Experience = dynamic(() => import("../component/Experience"));
-const Profile = dynamic(() => import("../component/Profile"));
 const Proyectos = dynamic(() => import("../component/Proyectos"));
-const Footer = dynamic(() => import("../component/Footer"));
 const Download = dynamic(() => import("../component/Download"));
-const Photo = dynamic(() => import("@/component/Photo"));
 
 export default function Home() {
   return (
@@ -18,13 +14,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Photo />
-      <Profile />
-      <AboutMe />
+
       <Experience />
       <Proyectos />
       <Download />
-      <Footer />
     </>
   );
 }

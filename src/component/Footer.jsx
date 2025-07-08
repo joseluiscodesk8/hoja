@@ -14,6 +14,7 @@ const Footer = () => {
         }
       });
     };
+    
     const observer = new IntersectionObserver(handIntersection, {
       root: null,
       rootMargin: "0px",
@@ -21,25 +22,20 @@ const Footer = () => {
     });
 
     const footer = document.querySelector(`.${styles.footer}`);
-    if (footer) {
-      observer.observe(footer);
-    }
+    if (footer) observer.observe(footer);
 
     return () => {
-      if (footer) {
-        observer.unobserve(footer);
-      }
+      if (footer) observer.unobserve(footer);
     };
   }, []);
+
   return (
-    <>
-      <div className={styles.footer}>
-        <p>
-          Codificado en <b>Visual Studio Code</b>, Construido con <b>Next.js</b>{" "}
-          y <b>SASS</b>, desplegado con <b>Vercel</b>.
-        </p>
-      </div>
-    </>
+    <div className={styles.footer}>
+      <p>
+        Full-Stack Developer especializado en <b>Next.js</b>, <b>Nest.js</b> y <b>PostgreSQL</b>.
+        DevOps con experiencia en <b>Kubernetes</b>, <b>Terraform</b>, <b>ArgoCD</b> y <b>GitHub Actions</b>.
+      </p>
+    </div>
   );
 };
 

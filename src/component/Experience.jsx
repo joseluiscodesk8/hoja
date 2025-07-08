@@ -1,9 +1,7 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import styles from "../styles/index.module.scss";
 
 const Experience = () => {
-  const [showSkills, setShowSkills] = useState(false);
-
   useEffect(() => {
     const handIntersection = (entries) => {
       entries.forEach((entry) => {
@@ -34,38 +32,16 @@ const Experience = () => {
     };
   }, []);
 
-  const toggleSkills = () => {
-    setShowSkills(!showSkills);
-  };
-
   return (
     <>
       <section className={styles.Experiencia}>
         <h2>Experience</h2>
-        <p>I am a full stack developer with 3 years of experience, starting as a frontend developer and later specializing in full stack development. I have solid knowledge of technologies such as Next.js, Nest.js, JavaScript, and PostgreSQL. I have worked on various freelance projects, developing web applications from scratch, integrating relational databases, RESTful APIs, and creating dynamic and optimized frontends. I specialize in building efficient and scalable solutions, implementing best practices in web development, optimizing user experience, and ensuring performance and security. Additionally, I have experience in cloud deployment and working in teams under agile methodologies. 
+        <p>
+          Full-Stack Developer with 3+ years of experience building scalable web
+          applications (Next.js, Nest.js, PostgreSQL). I combine development
+          expertise with DevOps practices (CI/CD, infrastructure
+          automation) to deliver high-performance solutions.
         </p>
-        {/* <p>
-          Desarrollador en{" "}
-          <a href="https://codingsquad.co" target="_blank">
-            codingSquad
-          </a>{" "}
-          desde enero del 2023.
-        </p> */}
-        <h2 onClick={toggleSkills} className={styles.clickable}>
-          Skills
-        </h2>
-        <ul className={`${styles.skillsList} ${showSkills ? styles.show : styles.hide}`}>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>SASS</li>
-          <li>JavaScript</li>
-          <li>Node.js</li>
-          <li>Next.js</li>
-          <li>Nest.js</li>
-          <li>PostgreSQL</li>
-          <li>APIREST</li>
-          <li>AWS</li>
-        </ul>
       </section>
     </>
   );

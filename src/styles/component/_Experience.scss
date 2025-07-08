@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 90%;
+  gap: 20px;
+  width: 100%;
   max-width: 500px;
-  height: 380px;
+  height: auto;
+  padding: 2%;
   margin: 20px auto;
-  line-height: 1.2rem;
   color: #ccc;
-  //border: 1px solid #ccc;
 
   & h2 {
     font-family: Arial, sans-serif;

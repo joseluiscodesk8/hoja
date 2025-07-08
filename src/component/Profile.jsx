@@ -3,6 +3,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import styles from "../styles/index.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import Photo from "./Photo"; // Asegúrate de que la ruta de importación sea correcta
 
 const Profile = () => {
   useEffect(() => {
@@ -38,10 +39,11 @@ const Profile = () => {
   return (
     <>
       <section className={styles.profile}>
+        <Photo /> {/* Aquí colocamos el componente Photo */}
         <h1>José Luís Gómez</h1>
-        <h2>Full Stack Web</h2>
+        <h2>Full-Stack && DevOps</h2>
         <p>
-        I build accessible products and digital experiences for the web.
+          Creating accessible web products and infrastructure.  
         </p>
         <div>
           <Link href={"https://github.com/joseluiscodesk8"} target="_blanck">
