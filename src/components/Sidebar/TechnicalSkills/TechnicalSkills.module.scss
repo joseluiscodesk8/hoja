@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: left;
+}
+
+.groupTitle {
+  align-self: flex-start;
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 5px;
+  background: var(--highlight-bg);
+  color: var(--highlight-text);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.groupItems {
+  color: var(--text);
+  font-size: 0.95rem;
+}

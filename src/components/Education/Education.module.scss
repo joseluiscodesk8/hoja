@@ -1,0 +1,45 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--divider);
+
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  @media (max-width: 639px) {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.institution {
+  font-weight: 600;
+  color: #2b2f36;
+}
+
+.program {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.period {
+  flex: none;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

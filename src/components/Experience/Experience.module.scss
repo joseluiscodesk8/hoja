@@ -1,0 +1,48 @@
+.job {
+  margin-bottom: 1.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.jobTitle {
+  font-size: 1.1rem;
+  color: #2b2f36;
+  font-weight: 700;
+}
+
+.jobMeta {
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.jobDescription {
+  margin-top: 0.7rem;
+  color: var(--text);
+}
+
+.bullets {
+  margin-top: 0.7rem;
+  padding-left: 1.25rem;
+
+  & li {
+    position: relative;
+    margin-bottom: 0.4rem;
+    color: var(--text);
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -1.25rem;
+      top: 0.6rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--navy);
+      opacity: 0.35;
+    }
+  }
+}
